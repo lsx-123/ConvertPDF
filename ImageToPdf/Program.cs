@@ -7,14 +7,9 @@ namespace ImageToPdf
     {
         static void Main(string[] args)
         {
-            //string imgpath = @"D:\新型高速、高灵敏度、高通量色谱分析仪器的开发与应用最终科技报告";
-            //int imgCnt = 203;
-            //string pdffile = @"D:\新型高速、高灵敏度、高通量色谱分析仪器的开发与应用最终科技报告\新型高速、高灵敏度、高通量色谱分析仪器的开发与应用最终科技报告.pdf";
-
-            string imgpath = @"D:\国产高速小型复合分子泵在实验室气相色谱-质谱联用仪上的应用";
-            int imgCnt = 30;
-            string pdffile = @"D:\国产高速小型复合分子泵在实验室气相色谱-质谱联用仪上的应用\国产高速小型复合分子泵在实验室气相色谱-质谱联用仪上的应用.pdf";
-            
+            string imgpath = @"D:\myImage";
+            int imgCnt = 203;
+            string pdffile = @"D:\myImage.pdf";
 
             iTextSharp.text.Document document = new iTextSharp.text.Document(iTextSharp.text.PageSize.A4, 25, 25, 25, 25);
             try
